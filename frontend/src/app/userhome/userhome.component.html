@@ -1,0 +1,186 @@
+<!--header-->
+<div class="universal">
+  <div class="container-fluid head-border px-5 my-0 ">
+   <div class="row my-0 no-gutters">
+     <div class="col-sm-2 col-lg-1 d-none d-sm-block ">
+       <a href="../seap/index.html">
+           <div class="mt-2 ml-2 mb-1" >
+             <img src="../../assets/images/logo.png" height="60px">
+           </div>
+         </a>
+       </div>
+       <div class="col-7 col-sm-5 col-lg-5 ml-0 pt-3 mr-auto text-bluee">
+           <h4 class="mb-0">
+             SEAP MFI
+           </h4>
+           <p class="mt-0">
+             Development with Vision.
+           </p>
+     </div>
+           
+     <div>
+       <nav class="d-lg-none navbar navbar-dark p-0 ml-5 ml-sm-0 mr-0 mr-sm-3 mt-3">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-dark "></span>
+          </button>
+       </nav>
+     </div>
+
+     <!--display lg-none-->
+     <div class="col-12 pos-f-t d-lg-none">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4">
+         <ul class="nav flex-column">
+           <li class="nav-item m-border"><a class="px-2 px-lg-0 mr-lg-3 mr-lg-0 link" [routerLink]="['/login']" routerLinkActive="active"> LOGIN</a></li>
+           <li class="nav-item m-border"><a class="px-2 px-lg-0 ml-lg-2 mr-lg-3 link" href="#"> CONTACT US </a></li>
+           <li class="nav-item m-border"><a class="px-2 px-lg-0 ml-lg-2  mr-lg-3 link" href="#"> ABOUT </a></li>
+           <li class="nav-item"><a class="px-2 px-lg-0 ml-lg-2  mr-lg-3 link" [routerLink]="['/register']" routerLinkActive="active"> SIGN UP </a></li>
+         </ul>
+       </div>
+      </div>
+     </div>
+           
+     <!--display lg-only-->
+     <div class="d-none d-lg-block col-lg-6 pt-5 pb-2">
+       <ul class="nav float-right">
+         <li class="nav-item m-border"><a class="px-2 px-lg-0 mr-lg-3 mr-lg-0 link" [routerLink]="['/login']" routerLinkActive="active"> LOGIN</a></li>
+         <li class="nav-item m-border"><a class="px-2 px-lg-0 ml-lg-2 mr-lg-3 link" href="#"> CONTACT US </a></li>
+         <li class="nav-item m-border"><a class="px-2 px-lg-0 ml-lg-2  mr-lg-3 link" href="#"> ABOUT </a></li>
+         <li class="nav-item"><a class="px-2 px-lg-0 ml-lg-2  mr-lg-3 link" [routerLink]="['/register']" routerLinkActive="active"> SIGN UP </a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+ 
+   
+ 
+ <div class="mb-0" >
+   <div class="container p-lg-4">
+     <div class="row ">
+       <div class="col-12 d-lg-none">
+         <img src="../../assets/images/mobile.jpg" width="100%">
+       </div>
+       <div class="col-12 col-lg-8">
+        <div class="row no-gutters ">
+           <div class="col-12 col-lg-6 px-0 m-0 bg-dark d-none d-lg-block">
+             <img src="../../assets/images/mobile.jpg" width="100%" height="303px">
+           </div>
+            <div class="col-6 col-lg-3 p-0 box" >
+             <a class="btn btn-green w-100 rounded-0 hov pt-3 pb-4 px-1 effect" [routerLink]="['/wallet']" routerLinkActive="active"> 
+               <span ><i class="fa fa-key font-size-1"></i></span>
+               <p class="text-dark mt-4 mb-0 bold" >Open Wallet Account</p>
+               <p class="text-white font mt-1" >Mobile wallet </p>
+             </a>
+             <a class="effect btn btn-blue w-100 rounded-0 hov  pt-3 pb-4 px-1 box " [routerLink]="['/request']" routerLinkActive="active">
+               <span ><i class="fa fa-credit-card-alt font-size-2"></i></span>
+               <p class="text-dark mt-4 mb-0 bold-1" >Request wallet card</p> 
+               <p class="text-white  font mt-0" >Get a card</p>  
+             </a>    						
+           </div>
+       
+           <div class="col-6 col-lg-3 p-0 box">
+            <a  class="btn btn-orange w-100 rounded-0 hov pt-3 pb-4 px-0 effect" [routerLink]="['/loans']" routerLinkActive="active">
+              <span ><i class="fa fa-money font-size-1"></i></span>
+              <p class="text-dark mt-4 mb-0 bold" >Loans</p>
+              <p class="text-white font mt-1" >Take loans</p>
+            </a>
+            <a class="btn btn-army w-100 rounded-0 hov pt-3 pb-4 px-0 effect" [routerLink]="['/funds']" routerLinkActive="active">
+              <span ><i class="fa fa-download font-size-3"></i></span>
+              <p class="text-dark mt-4 mb-0 bold" >Fund Wallet</p>
+              <p class="text-white font mt-1" >Pay into your Wallet</p>
+            </a>
+           </div>
+         </div>
+             
+         
+         <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-lg-3 p-0">
+                 <a  class="btn btn-purple w-100 rounded-0 border hov  pt-3 pb-3 px-0 effect" [routerLink]="['/bills']" routerLinkActive="active">
+                 <span ><i class="fa fa-shopping-cart font-size-1"></i></span>
+                 <p class="text-white mt-4 mb-0 bold" >Pay your Bills</p>
+                 <p class="text-white font mt-1" >Utility Bills</p>
+               </a>
+                
+             </div>
+             
+               
+            
+             <div class="col-6 col-md-3 col-lg-3 p-0  ">
+                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <a class="btn w-100 rounded-0 border white-hover pt-3 pb-2 px-0 effect" [routerLink]="['/airtime']" routerLinkActive="active">
+                       <span ><img class="d-block ml-3" height="50px" width="30%" src="../../assets/images/mtn.jpg" alt="First slide"></span>
+                       <p class="text-dark mt-4 mb-0 bold" >Buy Airtime</p>
+                       <p class="text-white font mt-1" >All Networks</p>
+                     </a>
+                   </div>
+                   <div class="carousel-item">
+                     <a  class="btn  w-100 rounded-0 border white-hover pt-3 pb-2 px-0 effect"  [routerLink]="['/airtime']" routerLinkActive="active">
+                       <span ><img class="d-block ml-3" height="50px" width="30%" src="../../assets/images/Etisalat.jpg" alt="Second slide"></span>
+                       <p class="text-dark mt-4 mb-0 bold" >Buy Airtime</p>
+                       <p class="text-white font mt-1" >All Networks</p>
+                     </a>
+                   </div>
+                   <div class="carousel-item">
+                     <a  class="btn  w-100 rounded-0 border white-hover  pt-3 pb-2 px-0 effect"  [routerLink]="['/airtime']" routerLinkActive="active"> 
+                        <span ><img class="d-block ml-3" height="50px" width="30%" src="../../assets/images/Airtel.png" alt="Third slide"></span>
+                        <p class="text-dark mt-4 mb-0 bold" >Buy Airtime</p>
+                        <p class="text-white font mt-1" >All Networks</p>
+                     </a>
+                   </div>
+                    <div class="carousel-item">
+                      <a  class="btn  w-100 rounded-0 border white-hover pt-3 pb-2 px-0 effect"  [routerLink]="['/airtime']" routerLinkActive="active">
+                         <span ><img class="d-block ml-3" height="50px" width="30%" src="../../assets/images/glologo.jpg" alt="fourth slide"></span>
+                         <p class="text-dark mt-4 mb-0 bold" >Buy Airtime</p>
+                         <p class="text-white font mt-1" >All Networks</p>
+                      </a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-6 col-md-3 col-lg-3 p-0">
+               <a  class="btn btn-wine w-100 rounded-0 border hov  pt-3 pb-3 px-0 effect"  [routerLink]="['/transfer']" routerLinkActive="active">
+                 <span ><i class="fa fa-sign-out font-size-1"></i></span>
+                 <p class="text-white mt-4 mb-0 bold" >Transfer Money</p>
+                 <p class="text-white font mt-1" >To friends and Wallet</p>
+               </a>
+             </div>
+
+             <div class="col-6 col-md-3 col-lg-3 p-0 ">
+                  <a  class="btn btn-violet w-100 rounded-0 border hov pt-3 pb-3 px-0 effect" [routerLink]="['/withdraw']" routerLinkActive="active">
+                    <span ><i class="fa fa-upload font-size-1 text-light"></i></span>
+                    <p class="text-dark mt-4 mb-0 bold" >Withdrawal</p>
+                    <p class="text-white font mt-1" >Withdraw</p>
+                 </a>
+             </div>
+         </div>
+       </div>
+
+ 
+       <div class="col-12 col-lg-4 pl-lg-1 pt-5 pt-lg-0 ">
+         
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+              
+               <img class="d-block" height="446px" width="100%" src="../../assets/images/tomatoo.png" alt="First slide">
+             </div>
+             <div class="carousel-item">
+               <img class="d-block" height="446px" width="100%" src="../../assets/images/cow.png" alt="Second slide">
+             </div>
+             <div class="carousel-item">
+               <img class="d-block" height="446px" width="100%" src="../../assets/images/supermarket.png" alt="Third slide">
+             </div>
+           </div>
+         </div>
+       </div>           
+     </div>
+   </div>
+ </div>
+
+     
+
+
+</div>

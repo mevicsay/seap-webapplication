@@ -1,0 +1,64 @@
+html, body {
+    min-height: 100%; 
+}
+
+.universe{
+    background-image: url("../../../assets/images/glo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.temp{
+    background-image: url('../../../assets/images/glo.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 100%;
+}
+.dots{
+    background-color: rgba(33, 67, 206, 0.603);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 100%; 
+}
+.two-dots{
+    background-color: rgba(82, 99, 167, 0.603); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 100%; 
+}
+
+.lit-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn:hover, .lit-btn-a:hover{
+    border: 1px solid rgba(216, 211, 200, 0.801);
+}
+
+/*-----------Responsive Styling---------*/
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {
+    
+    .dots{
+        background-color: rgba(37, 50, 100, 0);
+    }
+ }
+
+
+@media (min-width: 992px) {
+
+    
+
+}
+
+
+@media (min-width: 1200px) { }

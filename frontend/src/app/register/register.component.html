@@ -1,0 +1,102 @@
+<div class="universe">
+  <div class="dots">
+    <div class="container px-4">
+      <div class="row pad">
+        <div class="col-12 col-md-5 px-0 temp">
+          <div class="two-dots px-3  py-3">
+            <div class="row">
+              <div class="col-12 pl-5">
+                <!--Logo Area-->
+                <a [routerLink]="['/user']" routerLinkActive="active">
+                  <img src="../assets/images/logo.png" class="size">
+                  <h4 class="text-white">Seap<span class="chain">Wallet</span></h4>
+                </a>
+              </div>
+            </div>
+            <div class="row py-4">
+              <div class="col-12 col-lg-10 pt-5 mr-auto ml-auto">
+                <h5 class="text-white logo-text ml-md-3 pl-lg-5">We are Professionals</h5>
+                <p class="ultra-light middle">
+                    Seap Wallet is a new generation of decentralized digital currency
+                    exchange, creation and proper payment gateway solutions.
+                </p>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-12">
+                <ul>
+                  <li class="py-2">
+                    <a href="#">Create your payment account</a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#">Free fluid payment</a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#">Enjoy online payment security</a>
+                  </li>
+                  <li class="py-2">
+                    <a href="#">Share with friends</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-7 py-3 off-white">
+          <div class="pb-5">
+            <h3>
+              <a (click)="moveToLogin()" class="blue">Login</a>
+              <a href="#" class="grey"> / Sign up</a>
+            </h3>
+          </div>
+          <div class="pt-3">
+            <h4>Hey there! Welcome Here</h4>
+            <p class="pb-4 text-dark ultra-light">Enter your sign up details below:</p>
+              <form [formGroup]="registerForm">
+                  <div class="form-row">
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Email" class="tx">Your Name</label>
+                      <input formControlName="name" type="text" class="form-control line-up my-1" placeholder="">
+                    </div>
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Password" class="mt-2">Your Username</label>
+                      <input formControlName="username" type="text" class="form-control line-up my-1" placeholder="">
+                    </div>
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Password" class="mt-2">Password</label>
+                      <input formControlName="password" type="password" class="form-control line-up my-1" placeholder="">
+                    </div>
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Password" class="mt-2">Confirm Password</label>
+                      <input formControlName="cpass" type="password" class="form-control line-up my-1" placeholder="">
+                    </div>
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Password" class="mt-2">Your Email</label>
+                      <input formControlName="email" type="text" class="form-control line-up my-1" placeholder="">
+                    </div>
+                    <div class="col-11 mr-auto ml-auto ultra-medium">
+                      <label for="Password" class="mt-2">Confirm Email</label>
+                      <input formControlName="cmail" type="text" class="form-control line-up my-1" placeholder="">
+                    </div>
+                      <div class="col-12 text-right pr-5">
+                        <a href="#" class="ultra-light text-dark get">
+                         <input type="checkbox"> I agree with <a href="#" class="ultra-light nice text-dark text-primary">terms and conditons</a>
+                        </a>
+                      </div>
+                  <div class="col-6 col-sm-5 col-md-6 col-lg-5 mr-auto ml-auto pl-lg-5 py-4">
+                    <a class="px-5 text-white lit-btn" (click)="register()" (click)="clearForm()">
+                      REGISTER
+                    </a>                                                                                                                                                                                                                                                                                                                                                                                                        
+                  </div>
+                </div>
+                </form>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+
+

@@ -1,0 +1,59 @@
+<div class="universe">
+  <div class="container py-5 px-4">
+    <div class="row ">
+      <div class="col-12 col-md-5 px-0 temp">
+        <div class="two-dots px-3  py-3">
+          <div class="row">
+            <div class="col-12 pl-5">
+              <!--Logo Area-->
+              <a [routerLink]="['/user']" routerLinkActive="active">
+                <img src="../assets/images/logo.png" class="size">
+                <h4 class="text-white">Seap<span class="chain">Wallet</span></h4>
+              </a>
+            </div>
+          </div>
+          <div class="row py-4">
+            <div class="col-12 col-lg-10 pt-5 mr-auto ml-auto">
+              <h5 class="text-white logo-text ml-md-3 pl-lg-5">We are Professionals</h5>
+              <p class="ultra-light middle">
+                  Seap Wallet is a new generation of decentralized digital currency
+                  exchange, creation and proper payment gateway solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-7 py-2 off-white">
+        <div class="pt-3">
+          <h4>Hey there! We Require you to Login first!</h4>
+          <p class="pb-4 text-dark ultra-light">Enter your Login details below:</p>
+          <form [formGroup]="loginForm">
+            <div class="form-row">
+              <div class="col-11 mr-auto ml-auto ultra-medium">
+                <label for="Email" class="">Email</label>
+                <input formControlName="email" type="text" class="form-control line-up my-1" placeholder="">
+              </div>
+              <div class="col-11 mr-auto ml-auto ultra-medium">
+                <label for="Password" class="mt-2">Password</label>
+                <input formControlName="password" type="password" class="form-control line-up my-1" placeholder="">
+              </div>
+              <div class="col-12 text-right pr-5">
+                <a href="#" class="ultra-light get">
+                  Forgot Password?
+                </a>
+              </div>
+              <div class="col-6 col-sm-5 col-md-6 col-lg-5 mr-auto ml-auto pl-lg-5 py-4">
+                <a class="px-5 text-white lit-btn"(click)="login()" (click)="clearForm()">
+                  LOGIN
+                </a>                                                                                                                                                                                                                                                                                                                                                                                                        
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+

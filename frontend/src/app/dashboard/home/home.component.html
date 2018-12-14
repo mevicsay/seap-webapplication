@@ -1,0 +1,539 @@
+<div class="universal border-line-butt px-0">
+  <div class="container-fluid">
+    <div class="row  py-3 bg-light">
+      <div class="col-9 pl-4">
+        <img src="../../../assets/images/logo.png" class="w">
+      </div>
+      <div class="col-3">
+        <ul class="nav p-0">
+          <li class="nav-item px-2 px-md-3 px-lg-3 mt-2">
+            <span class="text-dark px-3">
+              <a class="ultra-medium" href="#">User's Profile</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-3 mt-2">
+            <span class="text-dark px-3">
+              <a class="ultra-medium" href="./funds.html">Sign-Out</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="universal border-line-butt px-0">
+  <div class="temp">
+   <div class="container-fluid ">
+    <div class="row">
+      <div class="col-12 col-lg-2 py-0 card-v">
+        <div class="tab active">
+         <div class="row">
+            <div id="accordion"> 
+              <div class="text-dark bg-light border-0 col-12 col-lg-12 pt-4 pb-1 text-left ultra-light px-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                 <h4>WALLET</h4>
+              </div>
+              <button class="tablinks text-white border-0 col-12  col-lg-12 pt-4 pb-1 text-left ultra-light px-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="fa fa-key fa-fw mr-2"></i>OPEN WALLET ACCOUNT
+              </button>
+              <div id="collapseOne" class="collapse ultra-light blue-light p-2" aria-labelledby="headingOne" data-parent="#accordion">
+                <p onclick="openTab(event, 'wallet')">Add Account</p>
+              </div>
+              <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left ultra-light px-3 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fa fa-external-link fa-fw mr-2"></i>FUND WALLET
+              </button>
+              <div id="collapseTwo" class="collapse ultra-light blue-light p-2" aria-labelledby="headingTwo" data-parent="#accordion">
+                <p onclick="openTab(event, 'funds')">Wallet to Wallet</p>
+                <p onclick="openTab(event, 'reg')">Bank to Wallet</p>
+              </div>
+              <button class="tablinks text-white border-0 col-12  col-lg-12 pt-4 pb-1 text-left px-3 ultra-light collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="openTab(event, 'transfer')">
+                  <i class="fa fa-mail-reply-all fa-fw mr-2"></i>PAYMENT TRANSFER
+              </button>
+              <div id="collapseThree" class="collapse ultra-light blue-light p-2" aria-labelledby="headingThree" data-parent="#accordion">
+                <p onclick="openTab(event, 'reg')">Wallet to Wallet</p>
+                <p onclick="openTab(event, 'reg')">Wallet to Owns Account</p>
+                <p onclick="openTab(event, 'reg')">Wallet to Other Banks</p>
+              </div>
+              <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" >
+                  <i class="fa fa-credit-card fa-fw mr-2"></i>CARDS
+              </button>
+              <div id="collapseFour" class="collapse ultra-light blue-light p-2" aria-labelledby="headingFour" data-parent="#accordion">
+                <p onclick="openTab(event, 'reg')">Request Credit Cards</p>
+              </div>
+              <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" onclick="openTab(event, 'finance')">
+                <i class="fa fa-shopping-cart fa-fw mr-2"></i>PAY UTILITY BILLS
+              </button>
+              <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" onclick="openTab(event, 'airtime')">
+                <i class="fa fa-tablet fa-fw mr-2"></i>BUY AIRTIMES
+              </button>
+              <div id="collapseSix" class="collapse ultra-light blue-light p-2" aria-labelledby="headingSix" data-parent="#accordion">
+                  <p >MTN</p>
+                  <p>GLO</p>
+                  <p>AIRTEL</p>
+                  <p>9MOBILE</p>
+              </div>
+            </div>
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')" id="defaultOpen" >
+                <i class="fa fa-money fa-fw mr-2"></i>GET LOANS
+            </button>
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+                <i class="fa fa-money fa-fw mr-2"></i>INVESTMENTS
+            </button>
+            <div class="text-dark bg-light border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+              <h6>MY ACCOUNT</h6>
+            </div>
+
+            <!-----Account_Settings---->
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+                Account Balance
+            </button>
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+                Account Overview
+            </button>
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+                Change my pin
+            </button>
+            <button class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-light" onclick="openTab(event, 'reg')">
+                Transaction History
+            </button>
+            <!--Logout_Functionality-->
+            <button (click)="logout()" class="tablinks text-white border-0 col-12 col-lg-12 pt-4 pb-1 text-left px-3 ultra-medium" onclick="openTab(event, 'reg')">
+                <h6>LOGOUT</h6>
+            </button>
+           </div>
+         </div>
+      </div>
+
+      
+      <div class="col-12 col-lg-10 mt-5 pb-3 pb-lg-0 mt-lg-0">
+        <div class="py-3 pl-2 border-line">
+          <h1 class="bold">SEAP MFI</h1>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-12 ">
+            <div class="row">
+              <div class="col-12 bg-secondary py-3">
+                <h6 class="text-white">
+                <span><i class="fa fa-cubes"></i></span>
+                <span class="ml-4 ml-sm-1 l-border"> Welcome:<span class="text-info mx-2">{{username}}</span></span>
+                <span class="ml-5 ml-sm-1 l-border"> Email:<span class="text-info mx-1">{{email}}</span></span>
+                <span class="ml-5 ml-sm-1">Balance:<span class="text-info mx-1">0:00</span></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tabcontent" id="wallet" >
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-10 bg-light box-shadow ">
+                <form>
+                
+                    <div class="form-row py-3 px-3">
+                      <div class="col-2 col-sm-3 col-md-4"></div>
+                      <div class="col-8 col-sm-6 col-md-4">
+                        <h6 class="background double"><span class="text-info">Set up your Account</span></h6>
+                      </div>
+                      <div class="col-2 col-sm-3 col-md-4"></div>
+                    </div>
+        
+                    <div class="form-row">
+                      <div class="col-12">
+                        <div class="input-group mb-2">
+                          <div class="input-group-addon border border-right-0"><span><i class="fa fa-user bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                          <input type="text" class="form-control border-left-0 rounded-0"  placeholder="Fullname...">
+                        </div>
+                      </div>
+                    </div>
+        
+        
+                    <div class="form-row">
+                      <div class="col-md-6 col-12 ">
+                        <div class="input-group mb-2">
+                          <div class="input-group-addon border border-right-0"><span><i class="fa fa-phone bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                          <input type="number" class="form-control border-left-0 rounded-0"  placeholder="Wallet Phone">
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12 ">
+                        <div class="input-group mb-2">
+                          <div class="input-group-addon border border-right-0"><span><i class="fa fa-calendar bg-info text-white p-2 font-size-4 "></i></span></div>
+                          <input type="date" class="form-control border-left-0 rounded-0" placeholder="">
+                        </div>
+                      </div>
+                  </div>
+        
+                  <div class="form-row">
+                    <div class="col-md-6 col-12">
+                      <select class="form-control bg-light">
+                      <option selected>Select</option>
+                      <option >Male</option>
+                      <option >Female</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="input-group mb-2">
+                        <div class="input-group-addon border border-right-0"><span><i class="fa fa-envelope bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                        <input type="text" class="form-control border-left-0 rounded-0" id="inputtext" placeholder="Email ID for Alert">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="form-row">
+                    <div class="form-group col-md-6 col-12">
+                      <select  class="form-control bg-light">
+                        <option selected>Select Security Questions</option>
+                        <option >Favourite Color</option>
+                        <option >Favourite food</option>
+                        <option >Pet Name</option>
+                        <option >Father's name</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6 col-12">
+                      <input type="text" class="form-control" placeholder="Answer"/>
+                    </div>
+                  </div>
+        
+                  <div class="form-row">
+                    <div class="col-md-6 col-12">
+                      <div class="input-group mb-2">
+                          <div class="input-group-addon border border-right-0"><span><i class="fa fa-briefcase m-white text-white bg-info p-2 font-size-4 "></i></span></div>
+                          <input type="text" class="form-control border-left-0 rounded-0"  placeholder="Occupation">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                      <div class="input-group mb-2">
+                        <div class="input-group-addon border border-right-0"><span><i class="fa fa-home m-white text-white bg-info p-2 font-size-4 "></i></span>
+                        </div>
+                        <input type="text" class="form-control border-left-0 rounded-0" placeholder="Address">
+                      </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="form-check pb-2 mb-1">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" value="">
+                            I agree to the <a href="#">terms of use</a>
+                          </label>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                      <div class="col-4 col-sm-2 mx-3 my-3 ml-auto">
+                          <a href="#" class="btn btn-blue f rounded-0 bol">Request</a>
+                      </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+
+        
+  
+        <div class="tabcontent" id="funds" >
+          <div class="line pad-but px-3">
+            <div>
+              <h5 class="text-white">FUND YOUR WALLET</h5>
+            </div>
+            <div class="row border-line border-line-top">
+              <div id="accordion" role="tablist">
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingSeven">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" href="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                        With Nigerian Issued Cards
+                      </a>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseSeven" class="collapse show" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                      <div class="row bg-white mb-3 py-3">
+                        <div class="col-3">
+                          <a  [routerLink]="['/payment']" routerLinkActive="active" class="btn btn-warning">
+                           <img src="../../../assets/images/master.png" width="80%">
+                          </a>
+                        </div>
+                        <div class="col-3">
+                          <a href="#" class="btn btn-danger pb-3">
+                           <img src="../../../assets/images/verve.jpg" class="mt-1" width="100%">
+                          </a>
+                        </div>
+                        <div class="col-3">
+                          <a href="#" class="btn btn-primary pb-2">
+                           <img src="../../../assets/images/visa.png" class="mt-1" width="100%"> 
+                          </a>
+                        </div>  
+                      </div>                     
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                       With Nigerian Internet Mobile Banking
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+  
+        <div class="tabcontent px-4" id="finance" >
+            <div class="line pad-but">
+              <div class="row">
+                  <div class="col-12">
+                      <h3 class="text-white">PAY UTILITY BILLS</h3>
+                  </div>  
+              </div>
+
+                <div>
+                  <button type="button" class="btn btn-light mr-1" data-toggle="collapse" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                    ELECTRICITY BILLS
+                  </button>
+                  <button type="button" class="btn btn-light mx-2" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    TV SUBSCRIPTIONS
+                  </button>
+                  <button type="button" class="btn btn-light mx-2" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                    INTERNET ACCESS SUBSCRIPTIONS
+                  </button>
+                </div>
+               
+                
+                <div class="collapse show my-3" id="collapseNine" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                  <div class="row bg-light">
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#" class="btn btn-dark rounded-0 my-3">
+                        <img class="mt-3" width="85%" height="150px" src="../../../assets/images/abuja.jpg">
+                      </a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#"  class="btn btn-danger rounded-0 my-3  w-100">
+                        <img class="mt-3" width="100%" height="100%"  src="../../../assets/images/ikeja.jpg">
+                        <p class="mb-0">IKEJA ELECTRIC</p>
+                        <p class="font mt-0">Pay your Electricity bills</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#" class="btn btn-warning rounded-0  my-3 w-100">
+                        <img class="mt-3 mb-2" width="95%" height="95%" src="../../../assets/images/jos.png">
+                        <p class="mb-0 text-dark">JOS ELECTRIC</p>
+                        <p class="font mt-0 text-dark">Pay your Electricity bills</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="collapse my-3" id="collapseTen"  role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                  <div class="row bg-white">
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#"  class="btn btn-white rounded-0 my-3 mx-2">
+                        <img class="mt-3" width="100%" height="100%"  src="../../../assets/images/starttimes.jpg">
+                        <h3 class="mb-0">STARTIMES</h3>
+                      </a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#" class=" rounded-0 my-3 mx-3">
+                        <img class="mt-3 mb-2" width="95%" height="200px" src="../../../assets/images/dstv.jpg">
+                      </a>
+                    </div>              
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#" class="rounded-0 my-3 mx-2">
+                        <img class="mt-5" width="300px" src="../../../assets/images/gotv.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="collapse my-3" id="collapseEleven"  role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                  <div class="row bg-white">
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#" class="btn btn-white rounded-0 py-3 px-0 mt-3 mr-3 w-100 ">
+                        <img class="mt-1" width="40%" src="../../../assets/images/smile.jpg">
+                        <h6 class="mb-0 text-dark">SMILE</h6>
+                        <p class="mt-0 text-secondary">Pay for your smile subscription</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                      <a href="#"  class="btn btn-danger rounded-0 pt-3 pb-3 px-5 mx-5 mt-3 w-100">
+                        <img class="mt-3" width="100%" height="100%"  src="../../../assets/images/ipnx.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>  
+        </div>
+  
+        <div class="tabcontent" id="airtime" >
+          <div class="line pad-but">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-white">TOP-UP AIRTIME</h3>>
+                </div>  
+            </div>
+            <div class="row justify-content-center pb-3">
+                <div class="col-12 col-md-10 bg-light box-shadow ">
+                  <form>
+                   <div class="form-row py-3 px-3">
+                     <div class="col-2 col-sm-3 col-md-4"></div>
+                     <div class="col-8 col-sm-6 col-md-4">
+                       <h6 class="background double"><span class="text-info">Top up Airtime</span></h6>
+                     </div>
+                     <div class="col-2 col-sm-3 col-md-4"></div>
+                   </div>
+         
+                   <div class="form-row py-2">
+                     <div class="col-md-6 col-12">
+                       <div class="input-group mb-2">
+                         <div class="input-group-addon border border-right-0"><span><i class="fa fa-phone bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                         <input type="text" class="form-control border-left-0 rounded-0" placeholder="wallet phone">
+                       </div>
+                     </div>
+                   
+                     <div class="col-md-6 col-12 ">
+                       <select class="form-control bg-light rounded-0">
+                         <option selected>Network</option>
+                         <option >Glo</option>
+                         <option >Mtn</option>
+                         <option >Airtel</option>
+                         <option >Etisalat</option>
+                       </select>
+                     </div>
+                   </div>
+                  
+                     
+         
+                   <div class="form-row py-2">
+                    <div class="col-md-6 col-12">
+                      <div class="input-group mb-2">
+                        <div class="input-group-addon border border-right-0"><span><i class="fa fa-money bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                        <input type="text" class="form-control border-left-0 rounded-0" placeholder="Amount">
+                      </div>
+                     </div>
+                     <div class="col-md-6 col-12">
+                      <div class="input-group mb-2">
+                        <div class="input-group-addon border border-right-0"><span><i class="fa fa-phone bg-info m-white text-white p-2 font-size-4 "></i></span></div>
+                        <input type="text" class="form-control border-left-0 rounded-0" placeholder="Recharge wallet Phone">
+                      </div>
+                    </div>
+                   </div>
+         
+                  
+         
+                   <div class="form-row py-2">
+                     <div class="col-md-6 col-12">
+                       <div class="input-group mb-2">
+                         <div class="input-group-addon border border-right-0"><span><i class="fa fa-cogs m-white text-white bg-info p-2 font-size-4 "></i></span></div>
+                         <input type="password" class="form-control border-left-0 rounded-0" placeholder="Enter Wallet Pin">
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row py-2">
+                      <div class="col-12 col-md-6">
+                        Don't you have an account?
+                        <a href="#" class="blue">Register</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 col-sm-2 mx-3 my-3 ml-auto">
+                         <a href="#" class="btn btn-blue text-white f rounded-0 bol">Buy Now</a>
+                      </div>
+                  </div>
+                 </form>
+                </div>
+              </div>
+          </div>  
+        </div>
+
+        <div class="tabcontent px-4" id="transfer" >
+            <div class="line pad-but">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-white">TRANSFER FUNDS</h3>
+                    </div>  
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-light mr-1" data-toggle="collapse" href="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                      To Any Phone Number
+                    </button>
+                    <button type="button" class="btn btn-light mx-2" data-toggle="collapse" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                     To Any Bank
+                    </button>
+                </div>
+               
+                
+                <div class="collapse show my-3" id="collapseTwelve" role="tabpanel" aria-labelledby="headingTwelve" data-parent="#accordion">
+                    <div class="row bg-white mb-3 py-3">
+                        <form>
+                          <div class="form-row">
+                           <div class="col-11 col-md-11 span8 center">
+                              <div class="input-group mb-2 mt-1 ">
+                               <input type="text" class="form-control border-right-0 rounded-0" placeholder="Enter Recipient Number">
+                               <div class="input-group-addon border border-left-0"><span><i class="fa fa-user  m-white text-danger p-2 font-size-4 "></i></span></div>
+                              </div>
+         
+                              <div class="input-group mb-2 ">
+                                <input type="password" class="form-control border-right-0 rounded-0" placeholder="Enter Pin">
+                                <div class="input-group-addon border border-left-0"><span><i class="fa fa-key  m-white text-danger p-2 font-size-4 "></i></span></div>
+                              </div>
+         
+                              <a href="#" type="submit" class="btn btn-primary col-12 mb-3">Submit</a>
+                           </div>
+                           <div class="col-10 col-md-8 py-3  font">
+                            <a href="#" class="text-danger ml-2">Click here to create an Account</a>
+                           </div>
+                         </div>
+                       </form>     
+                     </div> 
+                </div>
+
+                
+                <div class="collapse my-3" id="collapseThirteen"  role="tabpanel" aria-labelledby="headingThirteen" data-parent="#accordion">
+                    <div class="row bg-white mb-3 py-3">
+                        <form>
+                          <div class="form-row">
+                           <div class="col-11 col-md-11 span8 center">
+                              <div class="input-group mb-2 mt-1 ">
+                               <input type="number" class="form-control border-right-0 rounded-0" placeholder="Enter Recipient Account">
+                               <div class="input-group-addon border border-left-0"><span><i class="fa fa-user  m-white text-danger p-2 font-size-4 "></i></span></div>
+                              </div>
+         
+                              <div class="input-group mb-2 ">
+                                <input type="password" class="form-control border-right-0 rounded-0"  placeholder="Enter Pin">
+                                <div class="input-group-addon border border-left-0"><span><i class="fa fa-key  m-white text-danger p-2 font-size-4 "></i></span></div>
+                              </div>
+         
+                              <a href="#" type="submit" class="btn btn-primary col-12 mb-3">Submit</a>
+                           </div>
+                           <div class="col-10 col-md-8 py-3  font">
+                            <a href="#" class="text-danger ml-2">Click here to create an Account</a>
+                           </div>
+                         </div>
+                       </form>     
+                     </div> 
+                </div>
+
+
+            </div>  
+        </div>
+
+
+
+  
+      </div>       
+    </div>
+  </div>
+</div>
+</div>

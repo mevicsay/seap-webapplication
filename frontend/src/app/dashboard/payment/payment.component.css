@@ -1,0 +1,76 @@
+html, body {
+    min-height: 100%; 
+}
+
+.universe{
+    background-image: url("../../../assets/images/glo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.dots{
+    background-color: rgba(37, 50, 100, 0.603);
+}
+
+/*---------Forms Stying---------*/
+.line-up{
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.938) !important;
+    border: 1px solid rgba(231, 156, 7, 0.568) !important;
+    -webkit-border-radius: 25px !important;
+            border-radius: 25px !important;
+}
+.line-up:focus{
+    background-color: rgba(82, 99, 167, 0.603) !important;
+    outline: 0px !important;
+}
+form.loading{
+   opacity: 0.4;
+}
+
+/*----------Button Styling-----------*/
+.lit-btn{
+    background-color: rgba(82, 99, 167, 0.603)7;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn:hover{
+    background-color:  rgba(82, 99, 167, 0.603);
+    border: 2px solid rgb(250, 173, 18);
+
+}
+.faded{
+    background-color: #2d374b8f
+}
+li{
+    color: rgba(221, 233, 243, 0.822);
+}
+.textt {
+    text-align: center;
+}
+button:disabled{
+    opacity: 0.4;
+}
+
+/*------------Positioning-------------*/
+.middle{
+    text-align: center;
+}
+
+/*----------Sizing----------------*/
+.size{
+    width: 40px;
+}
+/*---------Padding-------------*/
+.paddd{
+    padding: 90px 30px ;
+}
+
+/*----------Fonts------------*/
+.font{
+    font-family:'MagistralTT-Bold';
+    font-size: 13px;
+}
